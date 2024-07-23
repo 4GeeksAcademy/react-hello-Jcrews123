@@ -1,4 +1,19 @@
+.footer {
+    background-color: grey;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+.mobile-view .d-flex {
+    flex-direction: column !important;
+}
 
+.mobile-view .d-flex > * {
+    margin-bottom: 20px;
+}
 /* 
 
     You can write your own styles here...
